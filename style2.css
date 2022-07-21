@@ -1,3 +1,4 @@
+/* -----------------Web Screen-----------------------*/
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -220,4 +221,466 @@ body {
     margin-left: 600px;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+/* -----------------Tablet Screen-----------------------*/
+@media screen and (min-width:768px) and (max-width:991px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+    }
+
+    .container1 {
+        display: flex;
+        height: 450px;
+        margin-right: 65px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius: 30px;
+        background-color: black;
+        justify-content: center;
+    }
+
+    .child1 {
+        color: white;
+        margin-top: 100px;
+        margin-right: 10%;
+        padding-left: 10%;
+    }
+
+    .child1 button:hover {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+
+    .child1 button {
+        font-size: 15px;
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+        background-color: #DD0000;
+        border: 0px;
+        transition-duration: 0.4s;
+    }
+
+    #font-size1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+    #font-size2 {
+        font-size: 10px;
+        line-height: 2;
+
+    }
+
+    .child2 img {
+        padding-top: 40%;
+        height: 100%;
+    }
+
+    .child2 {
+        width: 300px;
+        height: 400px;
+        left: 70%;
+        top: 50%;
+        margin-left: 3%;
+        margin-right: 25%;
+    }
+
+    .container2 {
+        display: grid;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+
+    .button-box {
+        margin-top: 0px;
+        margin-left: 40px;
+        width: 80%;
+        height: 0px;
+        background: #ffffff;
+        border-radius: 10px;
+    }
+
+    .three-button {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+    }
+
+    .button1 {
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+        background-color: #DD0000;
+        padding: 5px;
+        border-radius: 7px;
+        top: 50px;
+
+
+    }
+
+    .button2 {
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 10px 20px;
+        border: 1px solid rgb(167, 167, 167);
+        border-radius: 7px;
+
+    }
+
+    .button3 {
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 10px 60px;
+        border-radius: 7px;
+        border: 1px solid rgb(167, 167, 167);
+
+    }
+
+    .blog-pic img {
+        width: 100%;
+    }
+
+    .blog-pic {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-top: 100px;
+        margin-right: 100px;
+    }
+
+    .pic {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .padding {
+        padding-left: 50px;
+        padding-top: 25px;
+    }
+
+    .box-link {
+        text-decoration: none;
+        color: black;
+        height: 10px;
+        width: 20px;
+        border: 1px solid rgb(179, 179, 179);
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .clock {
+        color: gray;
+    }
+
+    .footer-box {
+        background-color: #161616;
+
+    }
+
+    .foot {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: 400px;
+        background-color: #161616;
+        text-align: center;
+    }
+
+    .foot1 {
+        color: white;
+        font-weight: 700;
+        font-size: 40px;
+        margin-top: 100px;
+    }
+
+    .line {
+        width: 80%;
+        height: 0%;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .foot2 {
+        color: gray;
+        display: grid;
+        padding-left: 100px;
+        padding-right: 100px;
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .social {
+        column-gap: 20px;
+        margin-right: 50px;
+        margin-left: 335px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+}
+
+/* -----------------Mobile Screen-----------------------*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 1px;
+    }
+
+    .container1 {
+        width: 550px;
+        display: flex;
+        height: 750px;
+        margin-left: 15px;
+        margin-top: 20px;
+        border-radius: 30px;
+        background-color: black;
+        justify-content: center;
+    }
+
+    .child1 {
+        color: white;
+        margin-top: 20px;
+        margin-right: -150px;
+        padding-left: 150px;
+        text-align: center;
+    }
+
+    .child1 button {
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        background-color: #DD0000;
+        padding: 10px 20px;
+        border-radius: 7px;
+        margin-top: 5px;
+    }
+
+    #font-size1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+    }
+
+    #font-size2 {
+        font-size: 10px;
+        line-height: 2;
+
+    }
+
+    .child2 img {
+        margin-top: 100px;
+        padding-top: 500px;
+        height: 100%;
+        margin-right: 300px;
+        margin-left: -60px;
+    }
+
+    .child2 {
+        width: 300px;
+        height: 400px;
+        left: 70%;
+        top: 15%;
+        margin-left: 3%;
+        margin-right: 10%;
+        margin-top: 350px;
+    }
+
+    .container2 {
+        display: grid;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+
+    .button-box {
+        margin-top: 0px;
+        margin-left: 40px;
+        width: 80%;
+        height: 0px;
+        background: #ffffff;
+        border-radius: 10px;
+    }
+
+    .three-button {
+        display: block;
+        gap: 30px;
+        justify-content: center;
+        margin-left: 150px;
+
+    }
+
+    .button1 {
+        display: block;
+        margin-right: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        background-color: white;
+        padding: 5px;
+        border-radius: 7px;
+        top: 50px;
+        border: 1px solid rgb(187, 187, 187);
+
+
+    }
+
+    .button2 {
+        display: block;
+        margin-right: 150px;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+        background-color: white;
+        padding: 5px;
+        border-radius: 7px;
+        top: 50px;
+        border: 1px solid rgb(187, 187, 187);
+
+    }
+
+    .button3 {
+        margin-right: 100px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        background-color: #DD0000;
+        padding: 10px 60px;
+        border-radius: 7px;
+
+    }
+
+    .blog-pic img {
+        width: 100%;
+    }
+
+    .blog-pic {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        margin-top: 180px;
+        margin-right: 120px;
+    }
+
+    .pic {
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    .flags {
+        display: flex;
+        padding-top: 50px;
+        padding-left: 100px;
+        padding-right: 25px;
+
+    }
+
+    .vs {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 700;
+        line-height: 1px;
+    }
+
+    .padding {
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    .match {
+        text-align: center;
+        line-height: 1px;
+    }
+
+    .clock {
+        color: gray;
+        text-align: center;
+    }
+
+    .footer-box {
+        background-color: #161616;
+
+    }
+
+    .foot {
+        padding-top: 10px;
+        padding-bottom: 130px;
+        height: 400px;
+        background-color: #161616;
+        text-align: center;
+    }
+
+    .foot1 {
+        color: white;
+        font-weight: 700;
+        font-size: 40px;
+        margin-top: 100px;
+    }
+
+    .line {
+        width: 80%;
+        height: 0%;
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .foot2 {
+        text-decoration: none;
+        margin-bottom: 10px;
+        margin-top: 30px;
+        color: gray;
+        display: block;
+        padding-left: 100px;
+        padding-right: 100px;
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .social {
+        margin-right: 100px;
+        margin-left: 240px;
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+
 }
